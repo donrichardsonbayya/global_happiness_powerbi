@@ -1,6 +1,6 @@
-# 🌍 Global Happiness Power BI Dashboard (2015–2023)
+# Global Happiness Power BI Dashboard (2015–2023)
 
-## 📊 Overview
+## Overview
 
 This Power BI project analyzes nine years of World Happiness Report data (2015–2023), providing an interactive, multi-dimensional view of well-being, economic indicators, and global trends across countries and regions.
 
@@ -8,7 +8,7 @@ It demonstrates the use of Power Query transformations, data modeling, DAX calcu
 
 ---
 
-## 🧱 Data Sources
+## Data Sources
 
 | Dataset | Description |
 |---------|-------------|
@@ -19,18 +19,18 @@ Merged in Power Query from yearly reports into one unified `HappinessData` table
 
 ---
 
-## 📈 Dashboard Features
+## Dashboard Features
 
-- 📅 Time slider: 2015–2023 happiness trends
-- 🌍 Interactive map by country & region
-- 📊 KPI cards for GDP, Freedom, Generosity, Health
-- 📉 GDP vs Happiness scatter plot
-- 🔄 Slicers: Year, Region, Country
-- 🔬 Correlation and YoY comparisons
+- Time slider: 2015–2023 happiness trends
+- Interactive map by country & region
+- KPI cards for GDP, Freedom, Generosity, Health
+- GDP vs Happiness scatter plot
+- Slicers: Year, Region, Country
+- Correlation and YoY comparisons
 
 ---
 
-## 🧠 DAX Measures Used
+## DAX Measures Used
 
 - `Avg Happiness Score`
 - `Avg GDP`, `Avg Freedom`, `Avg Generosity`, `Avg Health`
@@ -40,20 +40,20 @@ Merged in Power Query from yearly reports into one unified `HappinessData` table
 
 ---
 
-## 🗺️ Visual Highlights
+## Visual Highlights
 
 | Visual | Description |
 |--------|-------------|
-| 🌍 Map | Happiness score by country |
-| 📈 Line chart | Global average over time |
-| 📊 Bar chart | Top 10 happiest countries |
-| 🧮 KPI cards | Metric summaries |
-| 🧪 Scatter plot | GDP vs Happiness |
+| Map | Happiness score by country |
+| Line chart | Global average over time |
+| Bar chart | Top 10 happiest countries |
+| KPI cards | Metric summaries |
+| Scatter plot | GDP vs Happiness |
 
 
 ---
 
-## 🧠 Model View
+## Model View
 
 This project uses:
 - 9 separate WHR tables → merged into `HappinessData`
@@ -63,7 +63,7 @@ This project uses:
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 global_happiness_powerbi/
 ├── data/
@@ -78,7 +78,7 @@ global_happiness_powerbi/
 
 ---
 
-## 👨‍💼 Author
+## Author
 
 **Don Richardson Bayya**  
 ---
